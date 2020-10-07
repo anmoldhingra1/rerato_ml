@@ -36,6 +36,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- am fine
 
 ## intent:mood_unhappy
 - sad
@@ -54,3 +55,18 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+- How bias is different from variance?
+
+## intent:bias_variance
+- What’s the trade-off between bias and variance?
+- What is the difference between bias and variance?
+- How bias is different from variance
+- how variance is different from bias?
+- hi , i want to know something about variance?
+- What is the difference between variance and bias?
+- what is the difference between bias and variance?
+- what is variance?
+
+## intent:What is the difference between supervised and unsupervised machine learning?
+- What is the difference between supervised and unsupervised machine learning?
+- What is the difference between supervised and unsupervised machine learning

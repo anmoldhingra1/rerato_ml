@@ -9,6 +9,8 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- bias_variance
+- What is the difference between supervised and unsupervised machine learning?
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -23,3 +25,25 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_bias_variance:
+  - text: "- Bias is error due to erroneous or overly simplistic assumptions in\n\
+      \  the learning algorithm you’re using. This can lead to the model underfitting\n\
+      \  your data, making it hard for it to have high predictive accuracy and for\
+      \ you\n  to generalize your knowledge from the training set to the test set.\
+      \ \n- Variance is error due to too much complexity in the learning algorithm\
+      \ you’re\n  using. This leads to the algorithm being highly sensitive to high\
+      \ degrees of\n  variation in your training data, which can lead your model to\
+      \ overfit the data.\n  You’ll be carrying too much noise from your training\
+      \ data for your model to\n  be very useful for your test data.\n- The bias-variance\
+      \ decomposition essentially decomposes the learning error from \n  any algorithm\
+      \ by adding the bias, the variance\n  and a bit of irreducible error due to\
+      \ noise in the underlying dataset.\n- Essentially, if you make the model more\
+      \ complex and add more variables, you’ll\n  lose bias but gain some variance\
+      \ — in order to get the optimally reduced amount\n  of error, you’ll have to\
+      \ tradeoff bias and variance. You don’t want either high\n  bias or high variance\
+      \ in your model.\n"
+  utter_supervised_unsupervised:
+  - text: Supervised learning requires training labeled data. For example, in order
+      to do classification (a supervised learning task), you’ll need to first label
+      the data you’ll use to train the model to classify data into your labeled groups.
+      Unsupervised learning, in contrast, does not require labeling data explicitly.

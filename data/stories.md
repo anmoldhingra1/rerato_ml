@@ -29,3 +29,12 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## difference between Bias and Variance
+* bias_variance
+	- utter_bias_variance
+
+## New Story
+
+* What is the difference between supervised and unsupervised machine learning?
+    - utter_supervised_unsupervised
